@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studio Brenda Tattoo em Ribeirão das Neves - MG. Especialistas em tatuagem personalizada e piercing com biossegurança rigorosa. Avaliação 5.0 no Google. Agende pelo WhatsApp!">
+  <meta name="theme-color" content="#0b0c10">
+  <title>Studio Brenda Tattoo | Tatuagem e Piercing em Ribeirão das Neves</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans (Tipografia limpa e moderna) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilo Externa na Raiz (Sem subpastas para o GitHub Pages) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo" aria-label="Studio Brenda Tattoo">
+        <span>Studio Brenda Tattoo</span>
+        <span class="accent-dot">✦</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#trabalhos">Nossos Trabalhos</a></li>
+          <li><a href="#sobre">Sobre o Estúdio</a></li>
+          <li><a href="#contato">Contato & Localização</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA de Cabeçalho rápido apontando para o WhatsApp oficial -->
+      <a href="https://wa.me/5531998581395" target="_blank" rel="noopener noreferrer" class="btn-header-cta">
+        <span>Agendar</span>
+        <span class="accent-dot">→</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         SEÇÃO A: HERO SECTION (Início)
+         ========================================================================== -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        
+        <!-- Prova Social Imediata: Avaliação 5.0 no Google -->
+        <div class="google-badge">
+          <div class="google-icon-wrapper">
+            <!-- Ícone Oficial Google 'G' em SVG puro (Sem base64) -->
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+            </svg>
+          </div>
+          <div class="google-stars" aria-label="Avaliação 5 de 5 estrelas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="google-badge-text">
+            Avaliação <span class="google-score">5.0</span> no Google
+          </div>
+        </div>
+
+        <!-- Título Principal -->
+        <h1 class="hero-title">
+          <span>Studio Brenda Tattoo</span>
+        </h1>
+
+        <!-- Subtítulo -->
+        <p class="hero-subtitle">
+          Especialistas em Tatuagem e Piercing
+        </p>
+
+        <!-- Ação Principal de Conversão (CTA Primário) -->
+        <div class="hero-actions">
+          <a href="https://wa.me/5531998581395" target="_blank" rel="noopener noreferrer" class="btn-primary-cta" id="hero-cta-button">
+            <!-- Ícone WhatsApp SVG puro -->
+            <svg viewBox="0 0 24 24">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1.01 2.54.12.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+            </svg>
+            <span>Agendar minha Sessão</span>
+          </a>
+        </div>
+
+        <div class="cta-subtext">
+          <span class="dot-online"></span> Atendimento direto pelo WhatsApp oficial
+        </div>
+
+        <div class="hero-badges">
+          <span class="hero-pill">✓ Atendimento Personalizado</span>
+          <span class="hero-pill">✓ Biossegurança Rígida</span>
+          <span class="hero-pill">✓ Materiais 100% Descartáveis</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO B: PORTFÓLIO (GALERIA)
+         Para substituir as fotos, basta subir na raiz do GitHub os arquivos com os nomes:
+         - foto-portfolio-1.jpg
+         - foto-portfolio-2.jpg
+         - foto-portfolio-3.jpg
+         - foto-portfolio-4.jpg
+         - foto-portfolio-5.jpg
+         - foto-portfolio-6.jpg
+         ========================================================================== -->
+    <section id="trabalhos" class="portfolio-section">
+      <div class="container">
+        
+        <div class="text-center">
+          <span class="section-tag">Galeria Exclusiva</span>
+          <h2 class="section-title">Nossos Trabalhos</h2>
+          <p class="section-desc">
+            Traços finos, sombreamentos impecáveis e perfurações com máxima precisão e biossegurança.
+          </p>
+        </div>
+
+        <!-- Filtros interativos da galeria -->
+        <div class="portfolio-filters">
+          <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+          <button type="button" class="filter-btn" data-filter="tattoo">Tatuagens</button>
+          <button type="button" class="filter-btn" data-filter="piercing">Piercings de Orelha</button>
+        </div>
+
+        <!-- Grid de Fotos: Chamadas diretas na raiz, sem subpastas -->
+        <div class="portfolio-grid" id="portfolioGrid">
+
+          <!-- Foto 1: Tatuagem Fine Line -->
+          <article class="portfolio-item" data-category="tattoo" data-title="Tatuagem Fine Line Floral" data-src="foto-portfolio-1.jpg">
+            <img 
+              src="foto-portfolio-1.jpg" 
+              alt="Tatuagem Fine Line Floral - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Tatuagem</span>
+              <h3 class="portfolio-item-title">Fine Line Delicado</h3>
+            </div>
+          </article>
+
+          <!-- Foto 2: Piercing de Orelha -->
+          <article class="portfolio-item" data-category="piercing" data-title="Ear Piercing & Joalheria em Titânio" data-src="foto-portfolio-2.jpg">
+            <img 
+              src="foto-portfolio-2.jpg" 
+              alt="Piercing de Orelha com Joia em Titânio - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Piercing</span>
+              <h3 class="portfolio-item-title">Piercing de Orelha Estilizado</h3>
+            </div>
+          </article>
+
+          <!-- Foto 3: Tatuagem Blackwork -->
+          <article class="portfolio-item" data-category="tattoo" data-title="Tatuagem Sombreada Exclusiva" data-src="foto-portfolio-3.jpg">
+            <img 
+              src="foto-portfolio-3.jpg" 
+              alt="Tatuagem Sombreada Exclusiva - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Tatuagem</span>
+              <h3 class="portfolio-item-title">Blackwork & Sombra</h3>
+            </div>
+          </article>
+
+          <!-- Foto 4: Piercing Auricular / Conch / Helix -->
+          <article class="portfolio-item" data-category="piercing" data-title="Projeto Auricular Completo" data-src="foto-portfolio-4.jpg">
+            <img 
+              src="foto-portfolio-4.jpg" 
+              alt="Projeto de Piercings de Orelha Auricular - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Piercing</span>
+              <h3 class="portfolio-item-title">Piercing Conch & Helix</h3>
+            </div>
+          </article>
+
+          <!-- Foto 5: Tatuagem Lettering / Minimalista -->
+          <article class="portfolio-item" data-category="tattoo" data-title="Tatuagem de Escrita Minimalista" data-src="foto-portfolio-5.jpg">
+            <img 
+              src="foto-portfolio-5.jpg" 
+              alt="Lettering e Escrita Fina - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Tatuagem</span>
+              <h3 class="portfolio-item-title">Traços Geométricos & Lettering</h3>
+            </div>
+          </article>
+
+          <!-- Foto 6: Piercing Daith / Tragus -->
+          <article class="portfolio-item" data-category="piercing" data-title="Perfuração Daith de Orelha" data-src="foto-portfolio-6.jpg">
+            <img 
+              src="foto-portfolio-6.jpg" 
+              alt="Piercing de Orelha Daith e Tragus - Studio Brenda Tattoo" 
+              loading="lazy" 
+              class="portfolio-img"
+            >
+            <div class="portfolio-overlay">
+              <span class="portfolio-category-badge">Piercing</span>
+              <h3 class="portfolio-item-title">Perfuração Anatômica Daith</h3>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Banner de Conversão ao final do Portfólio -->
+        <div class="portfolio-cta-banner">
+          <h4>Gostou de algum estilo ou tem uma ideia própria?</h4>
+          <p>Envie sua referência ou agende uma avaliação gratuita para sua nova tatuagem ou piercing.</p>
+          <a href="https://wa.me/5531998581395" target="_blank" rel="noopener noreferrer" class="btn-secondary-wpp">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18z"/>
+            </svg>
+            <span>Pedir Orçamento no WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO C: SOBRE E PROVA SOCIAL
+         ========================================================================== -->
+    <section id="sobre" class="about-section">
+      <div class="container">
+        
+        <div class="text-center">
+          <span class="section-tag">Compromisso & Confiança</span>
+          <h2 class="section-title">Sobre o Estúdio</h2>
+          <p class="section-desc">
+            Arte com responsabilidade, materiais de grau cirúrgico e o máximo de cuidado com a sua saúde.
+          </p>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Bloco: Biossegurança e Qualidade -->
+          <div class="about-card">
+            <h3>Biossegurança & Qualidade</h3>
+            <p>
+              No <strong>Studio Brenda Tattoo</strong>, cada procedimento é realizado com os mais altos padrões de higiene e biossegurança. Trabalhamos exclusivamente com materiais 100% descartáveis, agulhas esterilizadas de uso único e joalheria de titânio biocompatível para piercings.
+            </p>
+            <p>
+              Nosso ambiente é esterilizado, acolhedor e projetado para proporcionar uma experiência confortável, segura e memorável em cada traço e perfuração.
+            </p>
+
+            <div class="bio-features">
+              <div class="bio-item">
+                <div class="bio-icon">🛡️</div>
+                <div>
+                  <h4>Materiais 100% Descartáveis</h4>
+                  <p>Agulhas e insumos abertos exclusivamente na frente do cliente.</p>
+                </div>
+              </div>
+
+              <div class="bio-item">
+                <div class="bio-icon">💎</div>
+                <div>
+                  <h4>Joalheria em Titânio</h4>
+                  <p>Perfurações de piercing com metais hipoalergênicos e seguros.</p>
+                </div>
+              </div>
+
+              <div class="bio-item">
+                <div class="bio-icon">✨</div>
+                <div>
+                  <h4>Ambiente Higienizado</h4>
+                  <p>Espaço climatizado seguindo rigorosas normas sanitárias.</p>
+                </div>
+              </div>
+
+              <div class="bio-item">
+                <div class="bio-icon">📋</div>
+                <div>
+                  <h4>Acompanhamento Pós</h4>
+                  <p>Orientações completas de cicatrização e suporte total pós-sessão.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bloco: Citações Reais Obrigatórias dos Clientes -->
+          <div class="testimonials-wrap">
+            
+            <!-- Depoimento 1: "Lugar excelente" -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="client-info">
+                  <div class="client-avatar">LE</div>
+                  <div>
+                    <h4 class="client-name">Cliente Satisfeita</h4>
+                    <span class="client-badge">✓ Cliente Verificada</span>
+                  </div>
+                </div>
+                <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
+              </div>
+              <blockquote class="testimonial-quote">
+                Lugar excelente
+              </blockquote>
+              <div class="verified-source">
+                <span>Avaliação verificada via Google Maps</span>
+              </div>
+            </div>
+
+            <!-- Depoimento 2: "Gostei do serviço, parabéns" -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="client-info">
+                  <div class="client-avatar">GS</div>
+                  <div>
+                    <h4 class="client-name">Cliente do Estúdio</h4>
+                    <span class="client-badge">✓ Cliente Verificada</span>
+                  </div>
+                </div>
+                <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
+              </div>
+              <blockquote class="testimonial-quote">
+                Gostei do serviço, parabéns
+              </blockquote>
+              <div class="verified-source">
+                <span>Avaliação verificada via Google Maps</span>
+              </div>
+            </div>
+
+            <!-- Resumo Google -->
+            <div class="testimonial-card" style="background: rgba(212, 175, 55, 0.05); border-color: var(--border-gold);">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                  <h4 style="color: var(--color-gold); font-size: 1.1rem; font-weight: 700;">Nota Máxima no Google</h4>
+                  <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0;">100% de clientes recomendam o estúdio</p>
+                </div>
+                <a href="https://wa.me/5531998581395" target="_blank" rel="noopener noreferrer" style="font-weight: 700; color: #fff; background: var(--color-whatsapp); padding: 0.5rem 1rem; border-radius: var(--radius-full); font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                  <span>Agendar Sessão</span> →
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO D: CONTATO E LOCALIZAÇÃO
+         ========================================================================== -->
+    <section id="contato" class="contact-section">
+      <div class="container">
+        
+        <div class="text-center">
+          <span class="section-tag">Venha nos Conhecer</span>
+          <h2 class="section-title">Contato e Localização</h2>
+          <p class="section-desc">
+            Atendimento com hora marcada e recepção humanizada em Ribeirão das Neves.
+          </p>
+        </div>
+
+        <div class="contact-container">
+
+          <!-- Dados do Estúdio -->
+          <div class="contact-info-card">
+
+            <!-- Endereço Completo em Destaque -->
+            <div class="contact-block">
+              <div class="contact-block-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-block-body">
+                <h4>Endereço do Estúdio</h4>
+                <p class="contact-address-text">
+                  <strong>Rua Quarenta, N101a</strong> - Residencial Alterosa<br>
+                  Ribeirão das Neves - MG, 33821-255
+                </p>
+              </div>
+            </div>
+
+            <!-- Horário de Funcionamento: Aberto até as 20:00 -->
+            <div class="contact-block">
+              <div class="contact-block-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="contact-block-body">
+                <h4>Horário de Funcionamento</h4>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">
+                  Segunda a Sábado com horário agendado
+                </p>
+                <div class="status-badge">
+                  <span class="dot-online"></span> Aberto até as 20:00
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Oficial -->
+            <div class="contact-block">
+              <div class="contact-block-icon" style="background: rgba(37, 211, 102, 0.1); border-color: rgba(37, 211, 102, 0.3); color: var(--color-whatsapp);" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1.01 2.54.12.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+                </svg>
+              </div>
+              <div class="contact-block-body">
+                <h4>WhatsApp Oficial</h4>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">
+                  (31) 99858-1395
+                </p>
+                <a href="https://wa.me/5531998581395" target="_blank" rel="noopener noreferrer" style="color: var(--color-whatsapp); font-weight: 700; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.2rem;">
+                  Iniciar conversa imediata →
+                </a>
+              </div>
+            </div>
+
+            <!-- Redes Sociais: Instagram -->
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="instagram-btn" aria-label="Siga o Studio Brenda Tattoo no Instagram">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Acompanhe no Instagram</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Mapa Integrado -->
+          <div class="map-preview-card">
+            <div class="map-iframe-wrapper">
+              <iframe 
+                title="Localização do Studio Brenda Tattoo no Google Maps"
+                src="https://www.google.com/maps?q=Rua+Quarenta,+N101a+-+Residencial+Alterosa,+Ribeir%C3%A3o+das+Neves+-+MG,+33821-255&output=embed" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+            <div class="map-cta-footer">
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Rua+Quarenta,+N101a+-+Residencial+Alterosa,+Ribeir%C3%A3o+das+Neves+-+MG,+33821-255" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-maps-link"
+              >
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                <span>Abrir rota no Google Maps</span>
+              </a>
+
+              <a 
+                href="https://wa.me/5531998581395" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-primary-cta" 
+                style="padding: 0.85rem; font-size: 0.95rem; width: 100%; max-width: none;"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18z"/>
+                </svg>
+                <span>Agendar Horário Agora</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">Studio Brenda Tattoo</div>
+      <p>Especialistas em Tatuagem e Piercing • Ribeirão das Neves - MG</p>
+      <p style="font-size: 0.8rem; color: #71717a;">
+        Rua Quarenta, N101a - Residencial Alterosa | Aberto até as 20:00
+      </p>
+      <p class="footer-copy">
+        &copy; <span id="currentYear"></span> Studio Brenda Tattoo. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FUNCIONALIDADES DE CONVERSÃO (REGRA RÍGIDA CRO):
+       BOTÃO FLUTUANTE DO WHATSAPP (Fixo no canto inferior direito, verde #25D366)
+       ========================================================================== -->
+  <aside class="whatsapp-floating" aria-label="Contato direto pelo WhatsApp">
+    <div class="whatsapp-tooltip">
+      Agende sua sessão agora!
+    </div>
+
+    <a 
+      href="https://wa.me/5531998581395" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="whatsapp-floating-btn" 
+      id="whatsapp-floating-link"
+      title="Falar com Brenda no WhatsApp"
+    >
+      <span class="whatsapp-pulse-ring"></span>
+      <svg viewBox="0 0 24 24">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1.01 2.54.12.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <!-- ==========================================================================
+       MODAL LIGHTBOX (Para visualização ampliada das fotos do portfólio)
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Visualização de imagem ampliada">
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização">&times;</button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SCRIPTS JAVASCRIPT LEVES (Vanilla JS - Zero Dependências)
+       ========================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Atualizar ano no rodapé dinamicamente
+      const yearEl = document.getElementById('currentYear');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // 2. Filtro de Categorias da Galeria (Todos, Tatuagens, Piercings)
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filterValue = btn.getAttribute('data-filter');
+          portfolioItems.forEach(item => {
+            if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+              item.style.display = 'flex';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. Lightbox Interativo (Abre a foto ao clicar)
+      const modal = document.getElementById('lightboxModal');
+      const modalImg = document.getElementById('lightboxImg');
+      const modalCaption = document.getElementById('lightboxCaption');
+      const modalClose = document.getElementById('lightboxClose');
+
+      portfolioItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const src = item.getAttribute('data-src');
+          const title = item.getAttribute('data-title');
+          if (src && modal && modalImg) {
+            modalImg.src = src;
+            modalImg.alt = title || 'Trabalho do Studio Brenda Tattoo';
+            modalCaption.textContent = title || '';
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+
+      const closeModal = () => {
+        if (modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      };
+
+      if (modalClose) modalClose.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+          closeModal();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
